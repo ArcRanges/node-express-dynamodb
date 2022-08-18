@@ -1,0 +1,32 @@
+{
+  "name": "td-notes-app",
+  "version": "1.0.0",
+  "description": "Notes taking SPA demo",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./bin/server.js"
+  },
+  "author": "Riyaz Sayyad",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1192.0",
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.2",
+    "cors": "^2.8.4",
+    "debug": "^3.1.0",
+    "express": "^4.16.3",
+    "hbs": "^4.2.0",
+    "http": "0.0.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "path": "^0.12.7",
+    "underscore": "^1.9.0",
+    "uuid": "^3.4.0"
+  },
+  "bin": {
+    "td-notes-app": "server.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
